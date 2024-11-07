@@ -38,7 +38,7 @@
     left: 50%;
     width: 40%; 
     height: 2px; 
-    background-color: #2C6ED5; 
+    background-color: whitesmoke; 
     border-radius: 2px; 
     transform: translateX(-50%); 
 }
