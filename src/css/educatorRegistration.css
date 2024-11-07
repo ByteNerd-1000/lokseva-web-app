@@ -1,0 +1,151 @@
+
+
+.educator-registration-container {
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 150px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.educator-registration-container h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.educator-registration-container .intro {
+    font-size: 1rem;
+    color: #7f8c8d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.educator-registration-container h2 {
+    color: #34495e;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.educator-registration-container .section-desc {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.educator-registration-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.educator-registration-container label {
+    font-weight: 600;
+    margin: 10px 0 5px;
+    color: #34495e;
+}
+
+.educator-registration-container input,
+.educator-registration-container textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.educator-registration-container input:focus,
+.educator-registration-container textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.educator-registration-container .terms-section {
+    margin: 10px 0;
+}
+
+.educator-registration-container .terms {
+    display: flex;
+    align-items: center;
+}
+
+.educator-registration-container .terms input {
+    margin-right: 10px;
+}
+
+.educator-registration-container button {
+    padding: 12px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.educator-registration-container button:hover {
+    background-color: #2980b9;
+}
+#submit-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#submit-popup .popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#submit-popup .popup-content h2 {
+    margin-bottom: 20px;
+    color: #4db8ff; 
+}
+
+#submit-popup .popup-content p {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#submit-popup .popup-content button {
+    background-color: #4db8ff; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-popup .popup-content button:hover {
+    background-color: #46a2d4;
+}
+
+
+#submit-btn {
+    background-color: #4db8ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+#submit-btn:hover {
+    background-color: #46a2d4;
+}
